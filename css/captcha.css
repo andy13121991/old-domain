@@ -1,0 +1,400 @@
+/* Resetting default margin and padding for all elements */
+*{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/* Styling for the HTML element with a background image */
+html{
+	background: url('/img/805180.jpg') no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+/* Body styling with flex layout */
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+/* Styling for Font Awesome icons */
+.fas {
+	color: #15ff00;
+}
+
+/* Styling for the refresh section */
+.refresh{
+	margin-top: 2.5em;
+	display: flex;
+	justify-content: center;
+	color: #ffa200;
+}
+
+/* Styling for the image container */
+#image{
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	box-shadow: 0.2em 0.2em #c89566af;
+	background-color: white;
+	width: 6em;
+	padding: 1.25em;
+	font-weight: 400;
+	user-select: none;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: #c89566 0.125em solid;
+	display: flex;
+	align-self: center;
+	border-radius: 0.9375em;
+	-webkit-border-radius: 0.9375em;
+	-moz-border-radius: 0.9375em;
+	-ms-border-radius: 0.9375em;
+	-o-border-radius: 0.9375em;
+}
+
+/* Styling for the key element */
+.key{
+	width: 100%;
+	color: red;
+	display: flex;
+	justify-content: center;
+}
+
+/* Styling for the user-input element */
+#user-input{
+	width: 100%;
+	height: 3em;
+	border-radius: 0.9375em;
+	-webkit-border-radius: 0.9375em;
+	-moz-border-radius: 0.9375em;
+	-ms-border-radius: 0.9375em;
+	-o-border-radius: 0.9375em;
+}
+
+/* Styling for the button wrapper */
+.btn-wrapper{
+	width: 100%;
+	margin-bottom: 2em;
+	display: flex;
+	justify-content: center;
+}
+
+/* Styling for the button with hover effects */
+#btn{
+	width: 15%;
+	height: 2em;
+	box-shadow: 0.2em 0.2em #c89566af;
+	color: black;
+	margin: 0.625em;
+	background-color: #eee;
+	border-radius: 0.4375em;
+	-webkit-border-radius: 0.4375em;
+	-moz-border-radius: 0.4375em;
+	-ms-border-radius: 0.4375em;
+	-o-border-radius: 0.4375em;
+}
+
+#btn:hover{
+	background-color: #ffd500;
+	color: #fff;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+
+/* Styling for the form input */
+.form__input {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	padding: 1.5rem 2rem;
+	border-radius: 0.2rem;
+	background-color: rgb(255, 255, 255);
+	border: none;
+	width: 90%;
+	display: block;
+	border-bottom: 0.3rem solid transparent;
+	transition: all 0.3s;
+}
+
+.form__input:placeholder-shown {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateY(-4rem);
+	transform: translateY(-4rem);
+}
+
+/* Styling for the input wrapper */
+.input-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.input-wrapper input {
+	background-color: #eee;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+	width: 13em;
+	border-radius: 1rem;
+	color: black;
+	box-shadow: 0.2em 0.2rem #c89566af;
+	cursor: pointer;
+}
+
+.input-wrapper input:focus {
+	outline-color: black;
+}
+
+/* Styling for the lock animation container */
+.wrapper {
+	margin-top: 5em;
+    width: 100%;
+	height: 14.875em;
+	display: grid;
+	align-self: center;
+}
+
+/* Styling for the base of the lock */
+.base {
+    background-color: #ffd500;
+    border: 0.5em solid #000;
+    width: 12.5em;
+    height: 9.375em;
+    border-radius: 1.875em;
+    margin: 0 auto;
+    position: relative;
+    top: 6.25em;
+    z-index: 100;
+    box-shadow: -1.875em 0 0 0 #ffa200 inset, 10px 0 0 0 #fff inset;
+    -webkit-border-radius: 1.875em;
+    -moz-border-radius: 1.875em;
+    -ms-border-radius: 1.875em;
+    -o-border-radius: 1.875em;
+}
+
+/* Styling for the left eye of the lock */
+.lock-leye {
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 1.25em;
+    background-color: black;
+    z-index: 300;
+    position: relative;
+    bottom: -5em;
+    left: 7.8125em;
+    -webkit-border-radius: 1.25em;
+    -moz-border-radius: 1.25em;
+    -ms-border-radius: 1.25em;
+    -o-border-radius: 1.25em;
+	-webkit-animation: blink 4s infinite linear;
+    animation: blink 4s infinite linear;
+}
+
+.lock-leye:after {
+	content: '';
+	height: 25%;
+	width: 25%;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-100%, -100%);
+}
+
+/* Styling for the right eye of the lock */
+.lock-reye {
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 1.25em;
+    background-color: black;
+    z-index: 300;
+    position: relative;
+    bottom: -3.75em;
+    left: 3.4375em;
+    -webkit-border-radius: 1.25em;
+    -moz-border-radius: 1.25em;
+    -ms-border-radius: 1.25em;
+    -o-border-radius: 1.25em;
+    -webkit-animation: blink 4s infinite ease;
+    animation: blink 4s infinite ease;
+}
+
+.lock-reye:after {
+	content: '';
+	height: 25%;
+	width: 25%;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-100%, -100%);
+}
+
+/* Styling for the mouth of the lock */
+.lock-mouth {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.25em solid #000;
+    -webkit-border-radius: 6.25em;
+    border-radius: 6.25em;
+    height: 1.25em;
+    width: 2.8125em;
+    margin: 0 0 0 0;
+    position: relative;
+    top: 3.5em;
+    left: -0.3em;
+    animation: smilingMouth 4s infinite ease;
+    -webkit-animation: smilingMouth 4s infinite ease;
+    -moz-border-radius: 6.25em;
+    -ms-border-radius: 6.25em;
+    -o-border-radius: 6.25em;
+}
+
+/* Animation for the smiling mouth */
+@-webkit-keyframes smilingMouth {
+    0% {    height: 1.25em;   border-bottom: 0.1875em solid #000;  margin: 0px auto 0;     }
+    20% {   height: 2.1875em;   border-bottom: 0.375em solid #000;  margin: -0.625em auto 0;   }
+    80% {   height: 2.1875em;   border-bottom: 0.375em solid #000;  margin: -0.625em auto 0;   }
+    100% {  height: 1.25em;   border-bottom: 0.1875em solid #000;  margin: 0px auto 0;     }
+}
+@keyframes smilingMouth {
+    0% {    height: 1.25em;   border-bottom: 0.1875em solid #000;  margin: 0px auto 0;     }
+    20% {   height: 2.1875em;   border-bottom: 0.375em solid #000;  margin: -0.625em auto 0;   }
+    80% {   height: 2.1875em;   border-bottom: 0.375em solid #000;  margin: -0.625em auto 0;   }
+    100% {  height: 1.25em;   border-bottom: 0.1875em solid #000;  margin: 0px auto 0;     }
+}
+
+/* Animation for the blinking eyes */
+@-webkit-keyframes blink {
+	0%, 24%, 27%, 100% {
+		transform: scaleY(1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+	25%, 26% {
+		transform: scaleY(0);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+@keyframes blink {
+	0%, 24%, 27%, 100% {
+		transform: scaleY(1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+		
+	}
+	25%, 26% {
+		transform: scaleY(0);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+/* Styling for the lock path */
+.lock-path {
+	display: flex;
+	justify-content: center;
+}
+
+/* Styling for the shackle animation */
+.shackle {
+	position: relative;
+	top: -10em;
+	animation: openLock 4s infinite;
+	-webkit-animation: openLock 4s infinite;
+}
+
+/* Animation for the shackle opening */
+@keyframes openLock {
+    0% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+    25% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+    50% {
+        transform: translateY(-2em);
+        -webkit-transform: translateY(-2em);
+        -moz-transform: translateY(-2em);
+        -ms-transform: translateY(-2em);
+        -o-transform: translateY(-2em);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+    75% {
+        transform: translateY(-2em);
+        -webkit-transform: translateY(-2em);
+        -moz-transform: translateY(-2em);
+        -ms-transform: translateY(-2em);
+        -o-transform: translateY(-2em);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+/* Styling for the rotate animation class */
+.rotateAnimation {
+	transform: rotate(360deg);
+	transition: transform .5s ease-out;
+	-webkit-transition: transform .5s ease-out;
+	-moz-transition: transform .5s ease-out;
+	-ms-transition: transform .5s ease-out;
+	-o-transition: transform .5s ease-out;
+}

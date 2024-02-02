@@ -1,0 +1,1 @@
+var button=document.getElementById("hamburger-menu"),span=button.getElementsByTagName("span")[0];function toggleOnClass(n){var t="#"+$(this).data("toggle");$(t).toggleClass("on")}button.onclick=function(){span.classList.toggle("hamburger-menu-button-close")},$("#hamburger-menu").on("click",toggleOnClass),$(".menu li a").on("click",function(){$("#hamburger-menu").click()});

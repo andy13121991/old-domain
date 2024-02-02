@@ -1,0 +1,70 @@
+// Styling for the log article container
+.log-article {
+    background: $overlay2;
+    margin-top: 2em;
+}
+
+// Styling for the title within the log article
+.title-log {
+    margin-top: 1em;
+}
+
+// Styling for the log container
+.log-container {
+    margin: 1em 1em;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+// Styling for the log wrapper
+.log-wrapper {
+    color: $whiteSmoked;
+}
+
+// Styling for individual log items
+.log-items {
+    margin: 1em 1em;
+    color: $whiteSmoked;
+    border: 1px solid $sand;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: $sand;
+}
+
+// Styling for the changelog date section
+.changelog-date {
+    padding: 1em;
+    text-align: center;
+    color: $gold;
+    font-size: 1.3em;
+    border-bottom: 1px solid $sandShadow;
+    background: $sandShadow;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+// Styling for the comment of changes section
+.comment-of-changes {
+    padding: 0.5em;
+    text-align: center;
+    color: $whiteSmoked;
+}
+
+// Styling for the change subtitle
+.change-subtitle {
+    padding: 1em 2em;
+    color: $cream;
+    font-size: 1.15em;
+    border-top: 1px solid $sandDarker;
+    border-bottom: 1px solid $sandDarker;
+}
+
+// Styling for the changelog unordered list
+.changelog-ul {
+    padding: 1em 2em;
+}

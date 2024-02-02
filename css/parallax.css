@@ -1,0 +1,346 @@
+/* Importing external fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+/* Define root variables */
+:root {
+    --scroll-bar-width: 8px;
+}
+
+/* Style for Webkit scrollbar */
+::-webkit-scrollbar {
+    width: var(--scroll-bar-width);
+}
+
+/* Global HTML styling */
+html {
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Parallax effect for a space-themed section */
+.parallax {
+    margin-top: 2em;
+    width: 100%;
+    height: auto;
+    background: url('../img/stars3.jpg');
+    background-size: 100%;
+    transform-style: preserve-3d;
+    perspective: 1px;
+    perspective-origin: calc(50% - var(--scroll-bar-width) / 2) center;
+}
+
+/* Styling for a spaceship image */
+.spaceship {
+    width: 100%;
+}
+
+/* Styling for space orbit */
+.sp-orbit {
+    width: 100%;
+}
+
+/* Styling for three sets of planets */
+.planets1, 
+.planets2, 
+.planets3 {
+    width: 100%;
+}
+
+/* Animation styling for the first set of planets */
+.sp-pl1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0%, 0%, 0px) scale(1);
+    -webkit-transform: translate3d(0%, 0%, 0px) scale(1);
+    -moz-transform: translate3d(0%, 0%, 0px) scale(1);
+    -ms-transform: translate3d(0%, 0%, 0px) scale(1);
+    -o-transform: translate3d(0%, 0%, 0px) scale(1);
+}
+
+/* Animation styling for the second set of planets */
+.sp-pl2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0%, 0%, 0px) scale(1);
+    -webkit-transform: translate3d(0%, 0%, 0px) scale(1);
+    -moz-transform: translate3d(0%, 0%, 0px) scale(1);
+    -ms-transform: translate3d(0%, 0%, 0px) scale(1);
+    -o-transform: translate3d(0%, 0%, 0px) scale(1);
+}
+
+/* Animation styling for the third set of planets */
+.sp-pl3 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0%, 0%, 0px) scale(1);
+    -webkit-transform: translate3d(0%, 0%, 0px) scale(1);
+    -moz-transform: translate3d(0%, 0%, 0px) scale(1);
+    -ms-transform: translate3d(0%, 0%, 0px) scale(1);
+    -o-transform: translate3d(0%, 0%, 0px) scale(1);
+}
+
+/* Styling for a spaceship traveling somehow */
+.somehow {
+    width: 100%;
+}
+
+/* Animation styling for the spaceship's viewport */
+.sh-vw {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0%, 0%, 0px) scale(1);
+    -webkit-transform: translate3d(0%, 0%, 0px) scale(1);
+    -moz-transform: translate3d(0%, 0%, 0px) scale(1);
+    -ms-transform: translate3d(0%, 0%, 0px) scale(1);
+    -o-transform: translate3d(0%, 0%, 0px) scale(1);
+}
+
+/* Styling for a galaxy background */
+.galaxy {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for a galaxy image */
+.gal-img {
+    width: 100%;
+}
+
+/* Styling for an asteroid */
+.asteorid {
+    width: 80%;
+}
+
+/* Styling for an asteroid image */
+.aste-img {
+    width: 100%;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 36%;
+    transform: rotate(-20deg) translate3d(0%, 0%, 0px) scale(1);
+    -webkit-transform: rotate(-20deg) translate3d(0%, 0%, 0px) scale(1);
+    -moz-transform: rotate(-20deg) translate3d(0%, 0%, 0px) scale(1);
+    -ms-transform: rotate(-20deg) translate3d(0%, 0%, 0px) scale(1);
+    -o-transform: rotate(-20deg) translate3d(0%, 0%, 0px) scale(1);
+}
+
+/* Styling for an astronaut image */
+.astronaut {
+    width: 100%;
+    position: relative;
+    margin-top: -30%;
+}
+
+/* Styling for the astronaut image */
+.astro-img {
+    width: 100%;
+    position: relative;
+    transform: translate3d(-0%, 0%, -0px) scale(1);
+    -webkit-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -moz-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -ms-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -o-transform: translate3d(-0%, 0%, -0px) scale(1);
+}
+
+/* Styling for an Earth view */
+.earth-view {
+    width: 100%;
+}
+
+/* Styling for an Earth viewport */
+.ea-vw {
+    width: 100%;
+}
+
+/* Styling for Mars section */
+.mars{
+    width: 100%;
+}
+
+/* Styling for Mars image */
+.mars-img {
+    width: 8%;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 10%;
+    transform: translate3d(-0%, 0%, -0px) scale(1);
+    -webkit-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -moz-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -ms-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -o-transform: translate3d(-0%, 0%, -0px) scale(1);
+}
+
+/* Styling for Jupiter section */
+.jupiter{
+    width: 100%;
+}
+
+
+/* Styling for Jupiter image */
+.jupi-img {
+    width: 5%;
+    position: absolute;
+    margin-top: -48%;
+    margin-left: 93%;
+    transform: translate3d(-0%, 0%, -0px) scale(1);
+    -webkit-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -moz-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -ms-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -o-transform: translate3d(-0%, 0%, -0px) scale(1);
+}
+
+/* Styling for half Earth section */
+.earth-half{
+    width: 100%;
+}
+
+/* Styling for half Earth image */
+.ea-half-img {
+    width: 100%;
+    position: absolute;
+    top: -50.3%;
+    transform: translate3d(-0%, 0%, -0px) scale(1);
+    -webkit-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -moz-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -ms-transform: translate3d(-0%, 0%, -0px) scale(1);
+    -o-transform: translate3d(-0%, 0%, -0px) scale(1);
+}
+
+/* Hover effect for Earth section with stars background */
+.earthhover {
+    width: 100%;
+    height: 100%;
+    background: url('../img/stars3.jpg');
+    background-size: 100%;
+}
+
+/* Styling for New York section */
+.newyork{
+    width: 100%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ;
+    -moz-transition: all 2s ;
+    -ms-transition: all 2s ;
+    -o-transition: all 2s ;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+
+/* Styling for New York image */
+.ny-img{
+    width: 100%;
+}
+
+/* Styling for Earth zoom animation */
+.earthzoom{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    transition:all 2s ease-in-out;
+    opacity: 1;
+    -webkit-transition:all 2s ease-in-out;
+    -moz-transition:all 2s ease-in-out;
+    -ms-transition:all 2s ease-in-out;
+    -o-transition:all 2s ease-in-out;
+}
+
+/* Styling for news section */
+.news{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -76%;
+    margin-left: 35%;
+}
+
+/* Styling for newspaper image */
+.newspaper{
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    -o-transform: scale(0.2);
+}
+
+/* Styling for text overlay */
+#text-overlay {
+    width: 100%;
+    display: flex;
+    margin: 1em 1em 0.5em 1em;
+    background-color: rgba(137, 132, 132, 0.637);
+    background-size: 100%;
+    border-radius: 0.9375em;
+    -webkit-border-radius: 0.9375em;
+    -moz-border-radius: 0.9375em;
+    -ms-border-radius: 0.9375em;
+    -o-border-radius: 0.9375em;
+}
+
+/* Animation for fading in elements */
+.fade-in {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s, transform 1s;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -webkit-transition: opacity 1s, transform 1s;
+    -moz-transition: opacity 1s, transform 1s;
+    -ms-transition: opacity 1s, transform 1s;
+    -o-transition: opacity 1s, transform 1s;
+}
+
+/* Active state for fade-in animation */
+.fade-in-active {
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+/* Styling for home text */
+.text-home {
+    display: flexbox;
+    color: #ffd200;
+    margin: 1em 1em 1em 1em;
+    font-size: 1.5em;
+}
+
+/* Styling for quotes text */
+.text-quotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    font-family: 'Lugrasimo', cursive;
+}
+
+/* Styling for the name of the person who said the quote */
+.name-who-said{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 1em 1em 0;
+}

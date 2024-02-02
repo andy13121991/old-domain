@@ -1,0 +1,312 @@
+// Importing external style files
+@import 'variables.scss';
+@import 'fonts.scss';
+
+// Skills Container Styles
+.skills-container {
+	background: url('../img/spaceship-orbits-min.jpg') no-repeat;
+	background-size: 100%;
+	background-position: top 0 left 0;
+	color: $white;
+	margin: 2em 0 0 0;
+}
+
+// Hover effect for skill containers
+.skill-container:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transition: .25s transform ease;
+	-webkit-transition: .25s transform ease;
+	-moz-transition: .25s transform ease;
+	-ms-transition: .25s transform ease;
+	-o-transition: .25s transform ease;
+}
+
+.start-skill {
+	margin-top: 1.3em;
+}
+
+// Background for the next section
+.next-bg {
+	background: url('../img/galaxy.jpg') no-repeat;
+	background-size: 100%;
+	background-position: top 50em left 0;
+}
+
+// Overlay for skills section
+.skill-overlay {
+	background-color: $overlay2;
+	background-size: 100%;
+	margin-top: 1em;
+}
+
+// Global link styles
+a {
+	text-decoration: none;
+	flex: 0 0 auto;
+	color: $white;
+
+	&:visited {
+		text-decoration: none;
+	}
+}
+
+// List style for worked jobs
+.worked-jobs {
+	list-style: url('../img/rocket.png');
+}
+
+// Main CV Page Styles
+.main-cv-page {
+	grid-area: sidebar;
+	margin: 0em 1em 0 15%;
+	padding-top: 4em;
+	max-width: 100%;
+}
+
+// Heading styles
+h1 {
+	font-size: 3em;
+	margin: 1em 1em 1em 0;
+	padding: 0 0 0.1em 0;
+	border-bottom: 2px solid $gold;
+	color: $gold;
+}
+
+h2 {
+	font-size: 1.3em;
+	margin: 0.5em 0.5em 0.5em 0;
+	font-family: $font-family_1;
+}
+
+// Work description styles
+.work-descr {
+	font-size: 1.1em;
+	margin: 0.5em 1em 0.5em 0.5em;
+	font-family: $font-family_2;
+	color: $orange;
+}
+
+// Heading styles
+h4 {
+	font-size: 3em;
+	text-align: center;
+	font-family: $font-family_3;
+	color: $gold;
+}
+
+// Hobbies section styles
+.hobbies {
+	margin: 1em 1em 1em 1em;
+	padding-bottom: 1em;
+	font-size: 1.5em;
+	font-family: $font-family_1;
+	text-align: center;
+}
+
+// Certificate image styles
+.certif-img {
+	max-width: 200px;
+	max-height: 200px;
+	margin: 1em 1em 1em 0;
+	display: flexbox;
+	opacity: 0.8;
+
+	&:hover {
+		opacity: 1;
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+// Apps Section Styles
+.apps-overlay {
+	display: flex;
+}
+
+.apps-nav {
+	margin: 6em 1em 1em 1em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.list-apps {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.applink {
+	margin: 1em 0.3em 1em 0.3em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	color: $white;
+	background: rgba(0, 102, 255, 0.808);
+	font-size: 1.2em;
+	border: 2px solid rgba(0, 102, 255, 0.808);
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	width: 7.5em;
+	justify-content: center;
+
+	&:hover {
+		color: $gold;
+	}
+}
+
+// Hover effect for app containers
+.applist {
+	&:hover {
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+.img-app-link {
+	width: 15%;
+	padding-right: 0.3em;
+}
+
+// Media Queries
+@media screen and (max-width: 950px) {
+	.dwn-btn1 {
+		width: 40%;
+	}
+
+	.dwn-btn2 {
+		width: 40%;
+	}
+
+	.contact-list {
+		width: 6%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.hamburger-menu-button {
+		opacity: 1;
+		transition: opacity .5s ease;
+		-webkit-transition: opacity .5s ease;
+		-moz-transition: opacity .5s ease;
+		-ms-transition: opacity .5s ease;
+		-o-transition: opacity .5s ease;
+	}
+
+	.main-navbtn {
+		display: none;
+	}
+
+	body {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.main-cv-page {
+		margin-left: 13%;
+	}
+
+	.aside-nav {
+		display: none;
+	}
+
+	.download-menu {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dwn-btn1 {
+		width: 80%;
+	}
+
+	.dwn-btn2 {
+		width: 80%;
+	}
+
+	.port-foot {
+		margin-top: 15em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.changelog-link {
+		width: 95%;
+		text-align: center;
+	}
+
+	.title-contact-me {
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu-contact {
+		width: 100%;
+	}
+
+	.copyrights {
+		text-align: end;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.port-foot {
+		margin-top: 18em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.changelog-wrapper {
+		justify-content: end;
+		align-items: center;
+	}
+
+	.title-contact-me {
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu-contact {
+		width: 100%;
+	}
+
+	.copyrights {
+		text-align: end;
+	}
+
+	.apps-nav {
+		margin: 18em 1em 1em 2em;
+	}
+
+	.main-cv-page {
+		margin-left: 2.5em;
+	}
+
+	.contact-list {
+		width: 8%;
+	}
+}

@@ -1,0 +1,197 @@
+/* Set a maximum width for the body */
+body{
+  max-width: 100%;
+}
+
+/* Style for the skills list */
+ul.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 1em 1em 1em 2em;
+}
+
+/* Style for each skill container */
+li.skill-container{
+  width: 40%;
+  margin: 1em 2em 1em 0;
+  list-style: none;
+  position: relative;
+}
+
+/* Style for the skill icon */
+.iconset{
+  width: 5.5em;
+  height: 5.5em;
+  margin-bottom: 0.2em;
+}
+
+/* Style for the skill title */
+h3.skill-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 0.2em;
+  left: 42.5%;
+  font-size: 1.5em;
+}
+
+/* Style for the skill counter */
+p.counter{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0.2em;
+  left: 89%;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* Style for the progress bar container */
+.progress-bar{
+  max-width: 100%;
+  height: 1.4rem;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+}
+
+/* Style for the progress indicator */
+#progress{
+  position: absolute;
+  max-width: 100%;
+  height: 1.3rem;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(42%, #8c2b7a), to(#ff4d5a));
+  background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
+  background-image: -o-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+
+/* Keyframes for the progress of different skills */
+@keyframes html {
+  0% { width:0; } 100% { width: 95%; }
+}
+@keyframes css {
+  0% { width:0; } 100% { width: 95%; }
+}
+@keyframes javascript {
+  0% { width:0; } 100% { width:90%; }
+}
+@keyframes sass {
+  0% { width:0; } 100% { width:90%; }
+}
+@keyframes vue {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes vuex {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes pinia {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes react {
+  0% { width:0; } 100% { width:80%; }
+}
+@keyframes angular {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes git {
+  0% { width:0; } 100% { width:90%; }
+}
+@keyframes sql {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes tailwind {
+  0% { width:0; } 100% { width:90%; }
+}
+@keyframes svelte {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes php {
+  0% { width:0; } 100% { width: 85%; }
+}
+@keyframes laravel {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes ionic {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes bootstrap {
+  0% { width:0; } 100% { width: 85%; }
+}
+@keyframes bulma {
+  0% { width:0; } 100% { width: 85%; }
+}
+@keyframes jquery {
+  0% { width:0; } 100% { width: 90%; }
+}
+@keyframes svg {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes photoshop {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes ms {
+  0% { width:0; } 100% { width: 85%; }
+}
+@keyframes investing {
+  0% { width:0; } 100% { width: 90%; }
+}
+@keyframes communication {
+  0% { width:0; } 100% { width: 90%; }
+}
+@keyframes leadership {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes english {
+  0% { width:0; } 100% { width: 80%; }
+}
+@keyframes spanish {
+  0% { width:0; } 100% { width:30%; }
+}
+@keyframes slovak {
+  0% { width:0; } 100% { width: 97%; }
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 1050px){
+  .iconset{
+    width: 4.5em;
+  }
+  h3.skill-title{
+    font-size: 1.25em;
+  }
+  p.counter{
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .iconset{
+    width: 3em;
+    height: 3em;
+  }
+  h3.skill-title{
+    font-size: 1em;
+  }
+  p.counter{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 670px){
+  ul.skills{
+    flex-direction: column;
+  }
+  li.skill-container{
+    width: 95%;
+  }
+}

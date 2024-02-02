@@ -1,0 +1,60 @@
+[{
+  "name": "FRONT END DEVELOPER",
+  "date": "2 0 2 2 / PRESENT",
+  "company": "Freelancer",
+  "desc": "Worked with HTML, CSS, JS, Angular, Vue, Svelte, React, Git, SQL, PHP, Laravel, Ionic and etc."
+},
+{
+  "name": "TEAM LEADER",
+  "date": "2 0 2 1 / 2 0 2 2",
+  "company": "M C D O N A L D 'S, Switzerland",
+  "desc": "Worked with team, team building, McDrive, customer orders, product marketing, and etc."
+},
+{
+  "name": "SHOP ASSISTANT",
+  "date": "2 0 2 0 / 2 0 2 1",
+  "company": "V A L O R A, Switzerland",
+  "desc": "Collaborate with customers and employees. Filling products, making orders from warehouse."
+},
+{
+  "name": "CONSTRUCTION WORKER",
+  "date": "2 0 1 9 / 2 0 2 0",
+  "company": "More companies through agency, Switzerland",
+  "desc": "Hard work. I just needed the work permit for living in Switzerland."
+},
+{
+  "name": "SOLDIER",
+  "date": "2 0 1 9 ( 3 M O N T H S )",
+  "company": "O S S R",
+  "desc": "Improved better discipline, flexibility, team building, team leading and much more."
+},
+{
+  "name": "STATION DISPATCHER",
+  "date": "2 0 1 6 / 2 0 1 9",
+  "company": "Ž S R",
+  "desc": "Learnt rules and laws about team leading, operations and leads of the stations."
+},
+{
+  "name": "ASSEMBLY-LINE WORKER",
+  "date": "2 0 1 5 / 2 0 1 6",
+  "company": "More companies through agency",
+  "desc": "Hard work. Learnt know how about assembly-line."
+},
+{
+  "name": "HEAD  GUARD",
+  "date": "2 0 1 4 / 2 0 1 5",
+  "company": "Z S S K",
+  "desc": "Checking passengers, trains. Minor maintenance of wagons. Team work."
+},
+{
+  "name": "WAITER",
+  "date": "2 0 1 3 / 2 0 1 4",
+  "company": "More companies through agency",
+  "desc": "Got to new skills about know how customer restaurant service."
+},
+{
+  "name": "ASSEMBLY-LINE WORKER",
+  "date": "2 0 1 2 / 2 0 1 3",
+  "company": "More companies through agency",
+  "desc": "Hard work. Learnt know how about assembly-line."
+}]

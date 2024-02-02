@@ -1,0 +1,51 @@
+{ "upt2" :{
+    "version": "1.2",
+    "date": "15.10.2023",
+    "comment": "This page was updated.",
+    "added": 
+      {
+        "item1": "added this changelog page.",
+        "item2": "added json files for data of skills, jobs, certificates, apps buttons.",
+        "item3": "new app in Angular and jQuerry for readding and sorting events such as NBA.",
+        "item4": "new ToDo app in Vue with Bootstrap Vue library and VUEX",
+        "item5": "new app in jQuerry Mobile for readding and sorting data of arrays from json file,"
+      },
+    "updated": 
+      {
+        "item1": "made components from skills, jobs, certificates and apps containers.",
+        "item2": "updated some part of codes in SASS files for better performance.",
+        "item3": "better sorted directories in source of this page's code.",
+        "item4": "updated javascript files for better performance and sorting.",
+        "item5": "updated captcha CSS file and javascript files with verifying after push enter button."
+      },
+    "fixed": 
+      {
+        "item1": "better responsive code in SASS files and less code."
+      }
+  },
+  "upt1":{
+    "version": "1.1",
+    "date": "10.08.2023",
+    "comment": "This page was updated.",
+    "added": 
+      {
+        "item1": "use php language in page.",
+        "item2": "added li hover functionality to skills containers.",
+        "item3": "added new certificates to CV page."
+      },
+    "updated": 
+      {
+        "item1": "made a components header, footer and head from part of html code.",
+        "item2": "rewritten html pages to php."
+      },
+    "fixed": 
+      {
+        "item1": "none"
+      }
+  },
+  "born":{
+    "version": "1.0",
+    "date": "17.07.2023",
+    "comment": "This page was born."
+  }
+}

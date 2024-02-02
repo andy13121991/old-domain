@@ -1,0 +1,114 @@
+// Importing variables and fonts
+@import 'variables.scss';
+@import 'fonts.scss';
+
+// Styling for the changelog wrapper
+.changelog-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&:hover {
+		background: $sand;
+		border: 1px solid $sand;
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transition: .25s ease;
+		-webkit-transition: .25s ease;
+		-moz-transition: .25s ease;
+		-ms-transition: .25s ease;
+		-o-transition: .25s ease;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+	}
+}
+
+// Styling for the changelog link
+.changelog-link {
+	padding: 1em;
+	text-align: center;
+	color: $sandDarker;
+
+	&:hover {
+		color: $gold;
+	}
+}
+
+// Styling for the contact me section
+.contact-me {
+	background: black;
+	margin: 0em 1em 0 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header header header header"
+		"main main . sidebar"
+		"footer footer footer footer";
+}
+
+// Styling for the contact menu
+.menu-contact {
+	list-style: none;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+}
+
+// Styling for the copyrights
+.copyrights {
+	grid-area: footer;
+	color: $white;
+	font-size: 0.8em;
+	justify-self: end;
+}
+
+// Styling for the title in the contact me section
+.title-contact-me {
+	grid-area: header;
+	color: $white;
+	font-size: 1em;
+	width: 5.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	justify-self: center;
+}
+
+// Styling for the contact list
+.contact-list {
+	grid-area: main;
+	width: 3%;
+	margin: 0 1em 0 1em;
+}
+
+// Styling for the contact image
+.contact-img {
+	&:hover {
+		transform: scale(1.5);
+		-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+
+	width: 100%;
+}
+
+// Margin for the portfolio footer
+.port-foot {
+	margin-top: 10em;
+}

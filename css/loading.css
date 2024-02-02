@@ -1,0 +1,13 @@
+.loader-overlay {
+    background: rgba(0, 0, 0, 0.737);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 540px;
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

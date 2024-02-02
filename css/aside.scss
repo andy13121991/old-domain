@@ -1,0 +1,94 @@
+// Importing variables and fonts from separate files
+@import 'variables.scss';
+@import 'fonts.scss';
+
+// Styling for the scroll navigation
+.scroll-nav {
+	list-style: none;
+	margin-top: 5em;
+	margin-left: -0.5em;
+	max-width: 100%;
+	float: left;
+	text-decoration: none;
+	align-items: center;
+	color: $white;
+}
+
+// Styling for the main grid container
+.gridcontainer {
+	background: url('../img/spaceship-orbits-min.jpg') no-repeat;
+	background-size: 100%;
+	color: $white;
+	text-decoration: none;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+}
+
+// Styling for the aside navigation
+.aside-nav {
+	grid-area: main;
+	max-width: 25%;
+	position: fixed;
+}
+
+// Styling for different navigation buttons
+.navbtn-job {
+	padding: 1.125em 3.75em 1.125em 0;
+}
+
+.navbtn-certif {
+	padding: 1.125em 0.625em 1.125em 0;
+}
+
+.navbtn-dwn {
+	padding: 1.125em 0.75em 1.125em 0;
+}
+
+// Styling for navigation item buttons
+.aside-itembtn {
+	color: $sandDarker;
+
+	&:hover {
+		color: $gold;
+	}
+}
+
+// Styling for different items within the aside navigation
+.item1,
+.item2,
+.item3 {
+	padding: 1em;
+	max-width: 100%;
+	font-size: 1.1em;
+	text-decoration: none;
+	color: $white;
+
+	&:hover {
+		background-color: $sand;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+// Additional styling for #item2
+#item2 {
+	max-width: 100%;
+}
+
+// Media query for screen width less than or equal to 950px
+@media screen and (max-width: 950px) {
+	ul.scroll-nav {
+		margin-top: 2em;
+	}
+}

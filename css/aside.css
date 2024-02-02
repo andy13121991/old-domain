@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bangers&family=Bokor&family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+.scroll-nav {
+  list-style: none;
+  margin-top: 5em;
+  margin-left: -0.5em;
+  max-width: 100%;
+  float: left;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+}
+
+.gridcontainer {
+  background: url("../img/spaceship-orbits-min.jpg") no-repeat;
+  background-size: 100%;
+  color: white;
+  text-decoration: none;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+}
+
+.aside-nav {
+  grid-area: main;
+  max-width: 25%;
+  position: fixed;
+}
+
+.navbtn-job {
+  padding: 1.125em 3.75em 1.125em 0;
+}
+
+.navbtn-certif {
+  padding: 1.125em 0.625em 1.125em 0;
+}
+
+.navbtn-dwn {
+  padding: 1.125em 0.75em 1.125em 0;
+}
+
+.aside-itembtn {
+  color: #c89566;
+}
+.aside-itembtn:hover {
+  color: #ffd200;
+}
+
+.item1,
+.item2,
+.item3 {
+  padding: 1em;
+  max-width: 100%;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: white;
+}
+.item1:hover,
+.item2:hover,
+.item3:hover {
+  background-color: rgba(225, 179, 130, 0.6784313725);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: 0.25s transform ease;
+  -webkit-transition: 0.25s transform ease;
+  -moz-transition: 0.25s transform ease;
+  -ms-transition: 0.25s transform ease;
+  -o-transition: 0.25s transform ease;
+}
+
+#item2 {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  ul.scroll-nav {
+    margin-top: 2em;
+  }
+}/*# sourceMappingURL=aside.css.map */

@@ -1,0 +1,45 @@
+.title-log {
+  margin-top: 1em;
+}
+
+.log-container {
+  margin: 1em 1em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.log-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.log-items {
+  border-bottom: 1px solid white;
+}
+
+.changelog-date {
+  color: white;
+  font-size: 1.2em;
+}
+
+.comment-of-changes {
+  color: white;
+}
+
+.change-subtitle {
+  color: white;
+}
+
+.changelog-ol {
+  margin: 1em 1em;
+  color: white;
+}/*# sourceMappingURL=changelog.css.map */

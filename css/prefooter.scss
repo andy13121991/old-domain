@@ -1,0 +1,119 @@
+// Importing external SCSS files for variables and fonts
+@import 'variables.scss';
+@import 'fonts.scss';
+
+/* Styling for the prefooter section */
+.prefooter {
+	margin: 1em 1em 1em 0;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Styling for the title and download buttons section */
+.title-dwn-btns {
+	display: flex;
+	justify-content: center;
+}
+
+/* Styling for the download menu list */
+.download-menu {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+/* Styling for the first download button */
+.dwn-btn1 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em 0.5em 1em 0.5em;
+	padding: 1em 1em 1em 1em;
+	width: 35%;
+	background-color: $hovercolor;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+
+	&:hover {
+		background-color: $gold;
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+/* Styling for the second download button */
+.dwn-btn2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em 0.5em 1em 0.5em;
+	padding: 1em 1em 1em 1em;
+	width: 35%;
+	background-color: $hovercolor;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+
+	&:hover {
+		background-color: $gold;
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transition: .25s transform ease;
+		-webkit-transition: .25s transform ease;
+		-moz-transition: .25s transform ease;
+		-ms-transition: .25s transform ease;
+		-o-transition: .25s transform ease;
+	}
+}
+
+/* Styling for the first download link */
+.dwnlink1 {
+	color: $black;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&:hover {
+		color: $white;
+	}
+}
+
+/* Styling for the second download link */
+.dwnlink2 {
+	color: $black;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&:hover {
+		color: $white;
+	}
+}
+
+/* Styling for the first download image */
+.imgdwn1 {
+	width: 20%;
+}
+
+/* Styling for the second download image */
+.imgdwn2 {
+	width: 20%;
+}

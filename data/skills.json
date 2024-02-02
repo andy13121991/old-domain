@@ -1,0 +1,155 @@
+{
+  "technical":  
+    [{
+      "name": "html",
+      "src": "../img/svg/icons8-html-5.svg",
+      "skill": "95%"
+    },
+    {
+      "name": "css",
+      "src": "../img/svg/icons8-css3.svg",
+      "skill": "95%"
+    },
+    {
+      "name": "javascript",
+      "src": "../img/svg/icons8-javascript.svg",
+      "skill": "90%"
+    },
+    {
+      "name": "sass",
+      "src": "../img/svg/icons8-sass.svg",
+      "skill": "90%"
+    },
+    {
+      "name": "vue",
+      "src": "../img/svg/icons8-vue-js.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "vuex",
+      "src": "../img/svg/vuex-store.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "pinia",
+      "src": "../img/svg/pinia.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "react",
+      "src": "../img/svg/icons8-react.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "react native",
+      "src": "../img/svg/icons8-react.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "angular",
+      "src": "../img/svg/icons8-angular.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "angular material",
+      "src": "../img/svg/material.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "git",
+      "src": "../img/svg/icons8-git(1).svg",
+      "skill": "90%"
+    },
+    {
+      "name": "sql",
+      "src": "../img/svg/icons8-oracle-pl-sql.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "tailwind css",
+      "src": "../img/svg/icons8-tailwind-css.svg",
+      "skill": "90%"
+    },
+    {
+      "name": "svelte",
+      "src": "../img/svg/icons8-svelte.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "php",
+      "src": "../img/svg/icons8-php.svg",
+      "skill": "85%"
+    },
+    {
+      "name": "laravel",
+      "src": "../img/svg/laravel-icon.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "ionic",
+      "src": "../img/svg/ionicframework-icon.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "bootstrap",
+      "src": "../img/svg/bootstrap-4.svg",
+      "skill": "85%"
+    },
+    {
+      "name": "bulma",
+      "src": "../img/svg/bulma.svg",
+      "skill": "85%"
+    },
+    {
+      "name": "jquery",
+      "src": "../img/svg/jquery-4.svg",
+      "skill": "90%"
+    },
+    {
+      "name": "svg",
+      "src": "../img/svg/svg-file.svg",
+      "skill": "80%"
+    }],
+  "other": 
+    [{
+      "name": "photoshop",
+      "src": "../img/svg/icons8-adobe-photoshop.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "ms",
+      "src": "../img/svg/ms.svg",
+      "skill": "85%"
+    },
+    {
+      "name": "investing",
+      "src": "../img/svg/stock.svg",
+      "skill": "90%"
+    },
+    {
+      "name": "communication",
+      "src": "../img/svg/chat.svg",
+      "skill": "90%"
+    },
+    {
+      "name": "leadership",
+      "src": "../img/svg/leadership.svg",
+      "skill": "80%"
+    }],
+  "languages":
+    [{
+      "name": "english",
+      "src": "../img/svg/united-kingdom-uk-svgrepo-com.svg",
+      "skill": "80%"
+    },
+    {
+      "name": "spanish",
+      "src": "../img/svg/flag-for-flag-spain-svgrepo-com.svg",
+      "skill": "30%"
+    },
+    {
+      "name": "slovak",
+      "src": "../img/svg/slovakia-svgrepo-com.svg",
+      "skill": "97%"
+    }]
+}

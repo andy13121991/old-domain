@@ -1,0 +1,25 @@
+[{
+  "link": "../apps/vue/itunes/dist/index.html",
+  "img": "../apps/vue/itunes/dist/favicon.ico",
+  "name": "iTunes"
+},
+{
+  "link": "../apps/svelte/activity/public/index.html",
+  "img": "../apps/svelte/activity/public/favicon.png",
+  "name": "Activity"
+},
+{
+  "link": "../apps/jQueryMobile/index.php",
+  "img": "../apps/jQueryMobile/jquery-logo.png",
+  "name": "Events"
+},
+{
+  "link": "../apps/vue/todo/dist/index.html",
+  "img": "../apps/vue/todo/dist/favicon.ico",
+  "name": "To Do App"
+},
+{
+  "link": "../apps/angular/bet-app/index.html",
+  "img": "../apps/angular/bet-app/favicon.ico",
+  "name": "Bet App"
+}]

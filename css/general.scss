@@ -1,0 +1,32 @@
+/* Resetting margin, padding, and enabling smooth scroll behavior */
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    scroll-behavior: smooth;
+}
+
+/* Styling for the HTML element */
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    touch-action: pan-y;
+}
+
+/* Styling for the body element */
+body {
+    max-width: 13.3in;
+    background: url('../img/stars3.jpg') no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+/* Importing custom styles from external SCSS files */
+@import 'variables.scss';
+@import 'fonts.scss';
+@import 'bubble.scss';
+@import 'aside.scss';
+@import 'header.scss';
+@import 'prefooter.scss';
+@import 'footer.scss';
+@import 'main.scss';
+@import 'changelog.scss';

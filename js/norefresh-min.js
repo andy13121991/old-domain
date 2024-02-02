@@ -1,0 +1,1 @@
+$(function(){$(".menu-navigation > li > a").click(function(i){i.preventDefault(),$("body").load(this.href,function(){})}),$(".menu > li > a").click(function(i){i.preventDefault(),$("body").load(this.href,function(){})})});function modifyUrl(i,t){if(void 0!==history.pushState){var n={Title:i,Url:t};history.pushState(n,n.Title,n.Url)}}
